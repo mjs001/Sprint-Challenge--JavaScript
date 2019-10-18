@@ -30,13 +30,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach works on the current array
+.map makes a new array
+
 2. What is the difference between a function and a method?
+
+A function does not have to reference an object in order to work. However, a method requires you to define the object it is related to in order to work. Ex: method: Object.Method(), function: Function()
 
 3. What is closure?
 
+its the way in which a inner function can access the outer function and the global scope but the outer function cant access the inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+1. using this in the global scope will refer to the window it is confined in (window binding)
+2. when a function is called, this refers to what is left of the dot. (implicit binding)
+3. When using a constructor function this refers to what is created and returned by the constructor function.(new binding)
+4. When you use call, apply, bind you are explicitly telling this what it refers to. (explicit binding)
+
 5. Why do we need super() in an extended class?
+
+it replaces call, and calls the methods of the parent class
 
 ## Project Set up
 
